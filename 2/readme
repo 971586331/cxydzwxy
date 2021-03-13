@@ -1,0 +1,24 @@
+
+1.编译
+gcc xxx.c
+
+2.预编译
+gcc -E xxx.c -o xxx.i
+或
+cpp xxx.c > xxx.i
+
+3.编译
+gcc -S xxx.i -o xxx.s
+或
+gcc -S xxx.c -o xxx.s
+或
+cc1 xxx.c
+
+4.汇编
+as xx.s -o xx.o
+或
+gcc -c hello.s -s hello.o
+或
+gcc -c hello.c -o hello.o
+
+5.链接

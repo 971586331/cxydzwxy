@@ -11,3 +11,6 @@ objdump -h xxx.objdump
 .rodata : 只读数据区
 .comment : 注释信息段
 .note.GNU-stack : 堆栈提示段
+
+3.elf文件头
+

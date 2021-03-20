@@ -1,0 +1,12 @@
+1.编译
+gcc -c a.c b.c -fno-stack-protector
+
+2.链接
+ld a.o b.o -e main -o ab
+
+3.查看目标文件的符号表
+objdump -t a.o
+
+3.查看重定义表
+objdump -r a.o
+
